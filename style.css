@@ -21,6 +21,21 @@ header {
   color: #fdddb2;
 }
 
+header div {
+  margin-top: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 35px 0px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-style: normal;
+
+  box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.75),
+    0 10px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
 #logo_img {
   width: 80px;
   height: auto;
@@ -93,17 +108,11 @@ input {
   color: #020506;
 }
 
-header div {
-  margin-top: 150px;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  padding: 35px 0px;
-  justify-content: center;
-  align-items: center;
-  font-family: "Caudex", serif;
-  font-weight: 700;
-  font-style: normal;
-
-  box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.75),
-    0 10px 10px -5px rgba(0, 0, 0, 0.75);
+.submit_btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: -25px 25px 50px #bebebe, 25px -25px 50px #ffffff;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 20px;
 }
